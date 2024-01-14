@@ -7,6 +7,8 @@
 </p>
 
 
+https://github.com/S4JJ4D/s4jj4d.github.io/assets/14344816/f7238503-069d-4004-be45-17f6ea54a435
+
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 <video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
