@@ -14,7 +14,7 @@ https://github.com/S4JJ4D/s4jj4d.github.io/assets/14344816/f7238503-069d-4004-be
 <video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
-<video src="./assets/vids/Landing Gear - Multibody Dynamics Simulation.mp4" controls="controls" style="max-width: 730px;">
+<video src="./assets/vids/Landing_Gear_Multibody_Dynamics_Simulation.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 
