@@ -9,6 +9,9 @@
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
+<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
+</video>
+
 ## Education
 - Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
 - M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
