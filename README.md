@@ -3,7 +3,7 @@
 [Contact Us](./about/Contact.html)
 
 <p align="center">
-  <img src="./assets/DoubleMassSpring.gif" alt="animated" />
+  <img src="./assets/img/DoubleMassSpring.gif" alt="animated" />
 </p>
 
 
