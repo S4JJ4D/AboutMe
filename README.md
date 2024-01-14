@@ -1,6 +1,11 @@
 # Data Scientist
 
-[Contact Us](./about/Contact.html).
+[Contact Us](./about/Contact.html)
+
+<p align="center">
+  <img src="./assets/DoubleMassSpring.gif" alt="animated" />
+</p>
+
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
