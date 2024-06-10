@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Posts.css" />
+
+</head>
+
+<body>
+
+    <div class="mother">
+
+        <div class="title">
+            <a class="back-home" href="./Home.html">Home</a>
+            <p class="title-text">Posts</p>
+        </div>
+        <!-- <div class="horizontal-separator"></div> -->
+
+        <div class="posts-container">
+
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <!-- <div class="post-count">&#8594;</div> -->
+                    <div>
+                        <a class="post-title" style="background-color: transparent;">
+                            Simulink-FlightGear Cosimulation
+                        </a>
+                        <p class="post-description">
+                            The state of the aircraft is computed in the internal physics engine of Flightgear which 
+                            is then transmitted through a port to the SIMULINK model which is constantly listenning for
+                            incoming messages. 
+                        </p>
+
+                        <a href="./assets/vidoes/FlightSim.mp4" target="_blank" title="Click to Expand">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="Actuators-Displacement" autoplay loop muted>
+                                    <source src="./assets/vidoes/FlightSim.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <!-- <div class="post-count">&#8594;</div> -->
+                    <div>
+                        <a class="post-title" href="./Posts/MAS/MAS.html">
+                            Motion Coordination And Control Of A Multi-Robot System: SIMULINK-Webots Cosimulation
+                        </a>
+                        <p class="post-description">
+                            A set of collective motion patterns is designed for a group of ground robots. A mission then
+                            defined as a sequence of submissions, each comprising a motion pattern. 
+                        </p>
+
+                        <a href="./assets/vidoes/MAS_Encircling.mp4" target="_blank" title="Click to Expand">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="Actuators-Displacement" autoplay loop muted>
+                                    <source src="./assets/vidoes/MAS_Encircling.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <!-- <div class="post-count">&#8594;</div> -->
+                    <div>
+                        <a class="post-title" href="./Posts/AutoLevelPlatform/AutoLevelPlatform.html">
+                            Horizontal Stabilization of A Flexible Platform: SIMULINK-ABAQUS Cosimulation
+                        </a>
+                        <p class="post-description">
+                            We attempt to design an automatic control system to actively stabilize a
+                            platform with four linear actuators arranged in a rectangular layout. The design
+                            proceeds by first modeling the mechanical structure of the system using FEM method and
+                            then constructing a two-level controller that continually monitors the system conditions and
+                            attempts to level the platform with respect to horizontal surface. The performance and
+                            accuracy of control system is then tested through multiple
+                            simulations.
+                        </p>
+
+                        <a href="./assets/vidoes/ActuatorsDisplacement.mp4" target="_blank" title="Click to Expand">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="Actuators-Displacement" autoplay loop muted>
+                                    <source src="./assets/vidoes/ActuatorsDisplacement.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div>
+                        <a class="post-title" href="./Posts/Cam/Cam.html">
+                            Cams Are Fun!
+                        </a>
+                        <p class="post-description">
+                            No Fourier series! Given a 2D shape, we generate cam profiles so that a simple
+                            2-link mechanism could redraw the shape using
+                            its tips. There are a lot of design choices on the configuration of the two-link system;
+                            here, you can see an example.
+                        </p>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="Cam-Star" autoplay loop muted>
+                                <source src="./assets/vidoes/Cam_Star.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div>
+                        <a class="post-title" style="background-color: transparent;">
+                            Tracking Control Of A 3D Inverted Pendulum
+                        </a>
+                        <p class="post-description">
+                            After the desired position of the pendulum platform is specified by the user on the figure,
+                            horizontal force components (controlled signals) are adjusted so that the specified position
+                            command
+                            is tracked. (x,y) coordinates of the pendulum platform is fed back to the reduced-order
+                            estimator to generate state estimates which in turn is used in the controller.
+                            Servo-mechanism control (using internal model method, see
+                            <a
+                                href="https://books.google.com/books/about/Linear_System_Theory_and_Design.html?id=0gFRAAAAMAAJ">
+                                Chen [1984]</a>)
+                            is used to achieve robust tracking.
+
+
+                        </p>
+
+                        <a href="./assets/vidoes/Control_3DInvertedPendulum.mp4" target="_blank"
+                            title="Click to Expand">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="Inverted-Pendulum" autoplay loop muted>
+                                    <source src="./assets/vidoes/Control_3DInvertedPendulum.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div>
+                        <a class="post-title" style="background-color: transparent;">
+                            Simulation Of A Falling Coin
+                        </a>
+                        <p class="post-description">
+                            With an initial velocity and a spinning rate, the coin begins rolling on its edge across a
+                            rough surface. It continues to spin until damping forces eventually bring it to a halt.
+                        </p>
+
+                        <a href="./assets/vidoes/Falling_Coin.mp4" target="_blank" title="Click to Expand">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="Falling-Coin" autoplay loop muted>
+                                    <source src="./assets/vidoes/Falling_Coin.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div>
+                        <a class="post-title" href="./Posts/SoP/SoP.html">
+                            Simulation Of A System Of Particles
+                        </a>
+                        <p class="post-description">
+                            A system of interconnected particle masses isolated from the external world released from
+                            a prescribed initial condition and move under the action of internal forces.
+                            Total mechanical energy (E) remains constant throughout the motion of the system. Linear
+                            momentum
+                            (denoted by G) is also conserved; In other words, center of mass (moving white dot with blue
+                            border) is not accelerating because no external
+                            force is applied to the system.
+                        </p>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video title="Isolated System Of Particles" class="SoP" autoplay loop muted>
+                                <source src="./assets/vidoes/SoP.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div>
+                        <a class="post-title" style="background-color: transparent;">
+                            Kalman Filter In Action
+                        </a>
+                        <p class="post-description">
+                            Classical Kalman filter designed to perfrom state estimation in the presence of process
+                            noise and measurement
+                            noises, tested on a planar double inverted pendulum controlled by a horizontal force on the
+                            cart.
+                        </p>
+
+                        <a href="./assets/vidoes/LQG.mp4" target="_blank" title="LQG">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="LQG" autoplay loop muted>
+                                    <source src="./assets/vidoes/LQG.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+div.mother {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+.vanilla-text,
+.title .back-home,
+.title .title-text,
+.book-cell {
+    font-family: "Source Code Pro", "Courier Prime";
+    font-weight: 400;
+    font-size: 12pt;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.title .back-home {
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+.title .title-text {
+    font-size: 22pt;
+    font-weight: 300;
+}
+
+.mother div.title {
+    /* background-color: lightblue; */
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-bottom: 1px solid lightgray;
+}
+
+.mother .horizontal-separator {
+    height: 1px;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.mother .grid {
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightpink; */
+    margin-top: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.mother .grid .column {
+    flex: 1;
+    /* background-color: lightcoral; */
+    padding-right: 40px;
+}
+
+div.book-cell {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    line-height: 20pt;
+}
+
+div.book-cell .book-count {
+    padding-right: 15px;
+}
+
+a.book-title {
+    margin: 0;
+    font-weight: bold;
+    /* background-color: #F2BB05; */
+    background-color: #FFFE7A;
+    font-size: 16px;
+    color: black;
+
+}
+
+p.book-description {
+    font-size: 11pt;
+    /* text-align: justify;
+    word-spacing: -4px; */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 1000px) {
+
+    .mother .grid {
+        display: flex;
+        flex-direction: column;
+        /* background-color: lightpink; */
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .mother .grid .column {
+        flex: 1;
+        /* background-color: lightcoral; */
+        padding-right: 0;
+    }
+
+    .mother div.title {
+        /* background-color: lightblue; */
+        margin-top: 80px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-bottom: 1px solid lightgray;
+    }
+
+
+}

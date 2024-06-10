@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./MAS.css" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+    <div class="mother">
+
+        <div class="title">
+            <a class="back-home" href="./../../Home.html">Home</a>
+            <p class="title-text">Motion Coordination And Control Of A Multi-Robot System: SIMULINK-Webots Cosimulation</p>
+        </div>
+
+        <div class="body-container">
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div class="post-description">
+                        <p>
+                            Here's the simulation architecture:
+                        </p>
+                        <div style="display: flex; justify-content: center; align-items: center;" title="SimulationSetup">
+                            <img class="Cam1" src="./SimulationSetup.png" alt="SimulationSetup.png">
+                        </div>
+
+                        <p>
+                            We have a library of controllers that generate predefined motions patters for the fleet:
+                        </p>
+
+                        <div style="display: flex; justify-content: center; align-items: center;" title="ControlLibraries">
+                            <img class="Control-Libraries" src="./ControlLibraries.png" alt="ControlLibraries.png">
+                        </div>
+
+                        <p>Some the motion patterns:</p>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="motion-patterns" autoplay loop muted title="Follow the Leader!">
+                                <source src="./animation1.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="motion-patterns" autoplay loop muted title="Encircle">
+                                <source src="./animation3_1.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="motion-patterns" autoplay loop muted title="contracting_expanding_circles">
+                                <source src="./contracting_expanding_circles.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="motion-patterns" autoplay loop muted title="Intermittent Connection Graph">
+                                <source src="./Intermittent_Connection.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <p>
+                            The desired pattern is selected based on the policies and decisions made by a higher-level controller that 
+                            supervises the operation of the group. The colored box of the following diagram is addressed in this project.
+                        </p>
+
+                        <div style="display: flex; justify-content: center; align-items: center;" title="ControlLibraries">
+                            <img class="Diagram" src="./Diagram.png" alt="Diagram.png">
+                        </div>
+
+                        Some other cool configurations:
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="motion-patterns-special" autoplay loop muted title="">
+                                <source src="./animation6.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <p>
+                            Mission is specified by the user:
+                        </p>
+
+                        <a href="./missionSpec.mp4" target="_blank" title="Click to Expand">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <video class="mission" autoplay loop muted>
+                                    <source src="./missionSpec.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </a>
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

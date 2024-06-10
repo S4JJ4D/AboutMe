@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoP</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./SoP.css" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+    <div class="mother">
+
+        <div class="title">
+            <a class="back-home" href="./../../Home.html">Home</a>
+            <p class="title-text">Simulation Of A System Of Particles</p>
+        </div>
+
+        <div class="body-container">
+
+            <div class="post-box">
+                <div class="post-cell">
+                    <div class="post-description">
+                        <p>
+                            Some other experiments:
+                        </p>
+                        <p>When external forces are exerted on the system, the total energy is no longer constant, but influced
+                            under the action of the applied forces. It increases if the external foce helps "the system move faster"
+                            (doing positive work) and increases if it impedes the motion of the system (doing negative work).
+                        </p>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="SoP1" title="Disturb the system from the outside!" autoplay loop muted>
+                                <source src="./SoP1.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <p>
+                            Other topologies:
+                        </p>
+                        The network connection is specified by the symmetric matrix \(K\) which encodes the interconnection
+                        particles. The positive entry \(k_{ij}\) in \(K\) signifies a connection between particles 
+                        \(i\) and \(j\) with spring with stiffness \(k_{ij}\).
+                        Since the Lagrangian coordinates for the system are the Cartesian \((x,y)\) positions of masses, the
+                        connection matrix \(K\) is converted to \(K_{global} = DWD^T\) before used in the equaitons.
+                        \(K\) is in fact the adjacancy matrix for the network graph. \(D\) is the incincidence matrix of the
+                        graph and W are the weights (stiffness)
+                        of the springs.
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <video class="SoP2" title="Particle #4 is massive!" autoplay loop muted>
+                                <source src="./SoP2.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <!-- \[
+                            M \ddot{q} + K q = f
+                        \] -->
+
+                        <div class="horizontal-separator"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
